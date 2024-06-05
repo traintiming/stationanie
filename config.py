@@ -8,7 +8,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN","")
+BOT_TOKEN = getenv("BOT_TOKEN","6701671043:AAEPsPbKfftR4TqDA3yJ8WDFV3iJ9xOXuSY")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "9999"))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1002229770033"))
